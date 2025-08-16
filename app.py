@@ -319,7 +319,7 @@ class ProcessorDataFlow(Scene):
             "MDRout": self.mdr_group, "IRin": self.ir_group, "Yin": self.y_group,
             "Zout": self.z_group, "Zin": self.z_group, "R1out": self.gpr_group,
             "R1in": self.gpr_group, "Add": self.alu_group, "Sub": self.alu_group,
-            "R2out": self.gpr_group,
+            "R2out": self.gpr_group, "R2in": self.gpr_group, "End": self.ctrl_group,
             "Select4": VGroup(select_arrow, select_lbl, self.const4_group),
             "SelectY": VGroup(select_arrow, select_lbl, self.y_group)
         }}
